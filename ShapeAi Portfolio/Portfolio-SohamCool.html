@@ -1,0 +1,151 @@
+<html>
+
+<head>
+  <title>PortFolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--nav-bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed sticky-top shadow-lg" style="background-color:rgb(0, 32, 22);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CodeCool</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">My Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">My Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+        <form class="d-flex mt-3">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" style="color: white; background-color: rgb(24, 99, 74);">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="container mt-3" style="margin-top: 2%;">
+    <section id="hero" class="d-flex justify-content-sm-center justify-content-md-evenly align-items-sm-center flex-column-reverse gap-3 flex-md-row">
+      <!--hero-->
+      <div class="d-flex justify-content-sm-center align-items-sm-center flex-column gap-3 justify-content-md-start align-items-md-start">
+        <h5>Hi!👋</h5>
+        <h1>This is Soham Kulkarni here,</h1>
+        <p>A FullStack Web Developer!</p>
+        <button class="btn btn-primary btn-sm" style="background-color: rgb(24, 99, 74);">My Cool Resume</button>
+      </div>
+      <div class="mt-4 d-md-none w-25 h-25">
+        <img src="SohamPortfolio.jpg" alt="Soham Kulkarni" class="w-100 h-90 rounded-circle shadow-lg p-2 mb-5 bg-body rounded">
+      </div>
+      <div class="mt-4 d-none d-md-block w-25 h-25">
+        <img src="SohamPortfolio.jpg" alt="Soham Kulkarni" class="w-100 h-90 rounded-circle shadow-lg p-2 mb-5 bg-body rounded">
+      </div>
+
+    </section>
+    <section id="skills" class="mt-4 bg-light p-4 shadow-lg p-2 mb-5 bg-body rounded d-flex flex-column justify-content-sm-center">
+      <!--My skills-->
+      <h1 class="text-center" style="color: rgb(0, 32, 22)">My Skill Set</h1>
+      <div class="mt-4 d-md-none d-flex justify-content-evenly">
+        <i id="html" class="fab fa-html5 fa-3x"></i>
+        <i id="css" class="fab fa-css3-alt fa-3x"></i>
+        <i id="bootstrap" class="fab fa-bootstrap fa-3x"></i>
+      </div>
+      <div class="mt-4 d-none d-md-flex justify-content-evenly">
+        <div class="d-flex justify-content-sm-center justify-content-md-evenly align-items-sm-center flex-column-reverse gap-2 flex-md-column">
+          <i id="html" class="fab fa-html5 fa-7x" style="color: #F16529"></i>
+          <h3 style="color: #F16529;">HTML</h3>
+        </div>
+        <div class="d-flex justify-content-sm-center justify-content-md-evenly align-items-sm-center flex-column-reverse gap-2 flex-md-column">
+        <i id="css" class="fab fa-css3-alt fa-7x" style="color: #2965F1;"></i>
+        <h3 style="color: #2965F1;">CSS</h3>
+        </div>
+        <div class="d-flex justify-content-sm-center justify-content-md-evenly align-items-sm-center flex-column-reverse gap-2 flex-md-column">
+        <i id="bootstrap" class="fab fa-bootstrap fa-7x" style="color: #860AFB;"></i>
+        <h3 style="color: #860AFB;">BOOTSTRAP</h3>
+        </div>
+      </div>
+    </section>
+    <section id="works" class="mt-4 p-4">
+      <!--My work-->
+      <h1 class="text-center" style="color: rgb(0, 32, 22);margin-bottom: 5%;">My Works</h1>
+      <div class="row">
+        <div class="col-sm col-md-4">
+      <div class="card shadow-lg p-2 mb-5 bg-body rounded" style="width: 18rem;">
+        <img src="Resort.jpg" class="card-img-top" alt="Resort Image">
+        <div class="card-body">
+          <h5 class="card-title">Resort Management System</h5>
+          <p class="card-text">This Software overcomes the existing problems and limitations of Resorts. Such as Bookings, Order, Reports.</p>
+          <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> View Source</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-sm col-md-4">
+        <div class="card shadow-lg p-2 mb-5 bg-body rounded" style="width: 18rem;">
+          <img src="Servpro.jpg" class="card-img-top" alt="Service Image">
+          <div class="card-body">
+            <h5 class="card-title">ServPro</h5>
+            <p class="card-text">Exclusively buit to provide variety of services to customers. It Includes packing, moving, cleaning and much more.</p>
+            <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> View Source</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm col-md-4">
+          <div class="card shadow-lg p-2 mb-5 bg-body rounded" style="width: 18rem;">
+            <img src="Files.jpg" class="card-img-top" alt="Report Files Image">
+            <div class="card-body">
+              <h5 class="card-title">Fee Report|Student Management System</h5>
+              <p class="card-text">This Software provides the platform to the institutes to get an edge on Applicants Management!</p>
+              <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> View Source</a>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+    <section id="contact" class="mt-4 py-4">
+      <!--Contact Me-->
+        <h1 class="text-center" style="color: rgb(0, 32, 22);margin-bottom: 5%;">Contact Form</h1>
+        <div class="row">
+          <div class="col-sm col-md-8">
+          <form>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+          <input type="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" required class="form-label">Your Message:</label>
+          <textarea class="form-control" id="Enter your amazing message..." rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: rgb(24, 99, 74)">
+          Submit
+        </button>
+      </form>
+      </div>
+    <div class="col-sm col-md-4">
+      <div class="mt-3">
+        <h4><i class="fas fa-at text-primary"></i> skulkarni1798@gmail.com</h4>
+        <button type="button" class="btn btn-link" style="background-color: rgb(24, 99, 74)">
+        <a href="https://github.com/SohamCool/"><i class="fab fa-github" style="color: white;"></i></a>
+        </button>
+      </div>
+    </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
